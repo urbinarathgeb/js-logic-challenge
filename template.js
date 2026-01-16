@@ -1,8 +1,11 @@
-// EJERCICIO: [Nombre del ejercicio]
-// Instrucciones: [Breve descripción]
-
+/**
+ * NOMBRE DEL RETO: [Pon aquí el nombre]
+ * SOLUCIONADO POR: [Tu Nombre/GitHub]
+ */
 const runSolution = (parametro) => {
-  // ESCRIBE TU CÓDIGO AQUÍ ABAJO
+  // ESCRIBE TU CÓDIGO AQUÍ
+  // ----------------------------
+  // ----------------------------
   // ----------------------------
 };
 
