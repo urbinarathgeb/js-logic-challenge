@@ -13,9 +13,6 @@ function numeroPar(numero) {
 
 }
 
-
-
-
 // Pruebas (esto sirve para verificar)
 console.log(numeroPar(4)); // Debe imprimir "par"
 console.log(numeroPar(7)); // Debe imprimir "impar"
