@@ -2,19 +2,20 @@
  * NOMBRE DEL RETO: [mayor de tres]
  * SOLUCIONADO POR: [Denisse Romero]
  */
-let num1 = 50;
-let num2 = 20;
-let num3 = 15;
 
+// ESCRIBE TU CÓDIGO AQUÍ
 
-
-if (num1 > num2 && num1 > num3) {
-    console.log(num1);
+function numeroMayor(num1, num2, num3) {
+  if (num1 > num2 && num1 > num3) {
+    return num1;
   } else if (num2 > num1 && num2 > num3) {
-    console.log(num2);
+    return num2;
   } else {
-    console.log(num3);
+    return num3;
   };
-
+}
 
 // Pruebas (esto sirve para verificar)
+console.log(numeroMayor(50, 20, 15)); // Debe imprimir 50
+console.log(numeroMayor(10, 30, 20)); // Debe imprimir 30
+console.log(numeroMayor(15, 10, 25)); // Debe imprimir 25
