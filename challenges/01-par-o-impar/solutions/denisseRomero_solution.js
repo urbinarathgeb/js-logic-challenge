@@ -4,13 +4,19 @@
  */
 
 // ESCRIBE TU CÓDIGO AQUÍ
-let numero = 4;
+function numeroPar(numero) {
   if (numero % 2 === 0) {
-    console.log("par");
+    return"par";
   } else {
-    console.log("impar");
+    return"impar";
   }
+
+}
+
+
 
 
 // Pruebas (esto sirve para verificar)
-
+console.log(numeroPar(4)); // Debe imprimir "par"
+console.log(numeroPar(7)); // Debe imprimir "impar"
+console.log(numeroPar(10)); // Debe imprimir "par"
