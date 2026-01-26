@@ -5,16 +5,17 @@
 
   // ESCRIBE TU CÓDIGO AQUÍ
 function estacionesAnio(mes) {
-  if (mes >= 1 && mes <= 3) {
-    return "verano";
-  } else if (mes >= 4 && mes <= 6) {
-    return "otoño";
-  } else if (mes >= 7 && mes <= 9) {
-    return "invierno";
-  } else if (mes >= 10 && mes <= 12) {
-    return "primavera";
-  } else {
-    return "error";
+  switch (true) {
+    case (mes >= 1 && mes <= 3):
+      return "verano";
+    case (mes >= 4 && mes <= 6):
+      return "otoño";
+    case (mes >= 7 && mes <= 9):
+      return "invierno";
+    case (mes >= 10 && mes <= 12):
+      return "primavera";
+    default:
+      return "error";
   }
 };
 
