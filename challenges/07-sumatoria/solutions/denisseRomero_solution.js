@@ -1,12 +1,16 @@
 /**
- * NOMBRE DEL RETO: [Pon aquí el nombre]
- * SOLUCIONADO POR: [Tu Nombre/GitHub]
+ * NOMBRE DEL RETO: [Sumatoria]
+ * SOLUCIONADO POR: [Denisse Romero]
  */
-function sumaNumeroEntero(A, B) {
-  let unionNumeros = A.toString() + B.toString();
-  return parseInt(unionNumeros);
-    
+function sumatoriaRango(a,b) {
+  let inicio =Math.min(a ,b)// Esto sirve para obtener el valor menor entre a y b
+  let fin = Math.max(a,b)// Esto sirve para obtener el valor mayor entre a y b
+  let total = 0;
+  for (let i = inicio; i <= fin; i++) {
+    total += i;
+  }
+  return total;
 }
 
 // Pruebas (esto sirve para verificar)
-console.log(sumaNumeroEntero(5, 3));
+console.log(sumatoriaRango(2, 10));
